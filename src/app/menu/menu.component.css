@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+  padding: 0;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(123, 222, 210);
+  border:2px solid;
+
+}
+
+
+
+
