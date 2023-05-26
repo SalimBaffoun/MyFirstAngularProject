@@ -7,12 +7,16 @@ import { ValidationButtonComponent } from './validation-button/validation-button
 import { BlockComponentComponent } from './block-component/block-component.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 @NgModule({
   declarations: [
     AppComponent,
     ValidationButtonComponent,
     BlockComponentComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    MenuComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
